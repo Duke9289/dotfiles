@@ -15,6 +15,7 @@ Plugin 'VundleVim/vundle'
 
 "———————plugins go here—————
 Plugin 'mattn/emmet-vim'
+Plugin 'scrooloose/nerdtree'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
