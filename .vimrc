@@ -11,7 +11,7 @@ set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#rc()
 
 " let Vundle manage Vundle, required
-Plugin 'VundleVim/vundle'
+Plugin 'VundleVim/Vundle'
 
 "———————plugins go here—————
 Plugin 'mattn/emmet-vim'
