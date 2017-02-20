@@ -16,6 +16,9 @@ if [ -f ~/.bash_functions ]; then
     . ~/.bash_functions
 fi
 
+# Add my custom scripts to path
+export PATH="/home/duke/scripts:$PATH"
+
 # If not running interactively, don't do anything
 case $- in
     *i*) ;;
@@ -53,7 +56,11 @@ fi
 case "$TERM" in
     xterm-color|*-256color) color_prompt=yes;;
 esac
-
+if [ -e /usr/share/terminfo/x/xterm-256color ]; then
+    export TERM='xterm-256color'
+else
+    export TERM='xterm-color'
+fi
 # uncomment for a colored prompt, if the terminal has the capability; turned
 # off by default to not distract the user: the focus in a terminal window
 # should be on the output of commands, not on the prompt

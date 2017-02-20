@@ -16,6 +16,9 @@ Plugin 'VundleVim/vundle'
 "———————plugins go here—————
 Plugin 'mattn/emmet-vim'
 Plugin 'scrooloose/nerdtree'
+Plugin 'colepeters/spacemacs-theme.vim'
+Plugin 'arcticicestudio/nord-vim'
+Plugin 'Vim-JDE'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -36,6 +39,10 @@ set mouse=a
 filetype on
 filetype plugin on
 filetype indent on
+
+" color preferences
+:set t_Co=256
+colorscheme nord
 
 " encoding is utf 8
 set encoding=utf-8
