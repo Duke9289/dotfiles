@@ -63,3 +63,6 @@ set textwidth=80
 
 " set <leader> to ','
 let mapleader=","
+
+" abbreviations
+:ab psvm public static void main(String[] args) {<CR><CR>}
