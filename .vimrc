@@ -65,4 +65,4 @@ set textwidth=80
 let mapleader=","
 
 " abbreviations
-:ab psvm public static void main(String[] args) {<CR><CR>}
+:ab psvm public static void main(String[] args) {<CR><CR>}<Up><Space><Space><Space>
