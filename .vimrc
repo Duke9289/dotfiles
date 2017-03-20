@@ -60,3 +60,6 @@ set softtabstop=4
 
 " no lines longer than 80 cols
 set textwidth=80
+
+" set <leader> to ','
+let mapleader=","
