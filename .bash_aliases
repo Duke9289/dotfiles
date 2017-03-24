@@ -20,4 +20,5 @@ alias l='ls -CF'
 # Easily show hidden files
 alias la='ls -A'
 
-
+# Nodejs shortened, to keep in line with online docs
+alias node='nodejs'
